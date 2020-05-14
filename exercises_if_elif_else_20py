@@ -1,0 +1,19 @@
+"""
+Leia a idade e o tempo de serviço de um tabalhador e escreva se ele pode ou não se aposentar.
+As condições para aposentadoria são:
+
+- Ter pelo menos 65 anos,
+- Ou ter trabalhado pelo menos 30 anos,
+- Ou ter pelo menos 60 anos e trabalhado pelo menos 25 anos.
+"""
+
+idade = int(input('Qual sua idade? \n'))
+trabalho = int(input('Quantos anos de trabalho? \n'))
+
+if idade >= 65 or trabalho >= 30:
+    print('Você pode se aposentar.')
+elif idade >= 60 and trabalho >= 25:
+    print('Você pode se aposentar.')
+else:
+    print('Você não pode se aposentar.')
+
